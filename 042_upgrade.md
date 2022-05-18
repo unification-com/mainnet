@@ -24,8 +24,8 @@ See MainNet [Proposal #5](https://explorer.unification.io/proposals/5)
 
 Full proposal text: [https://ipfs.io/ipfs/QmZRGGNWCQGu6tVDYc713rqAKvTH7Qv3FQxneNQe77uKqB?filename=FUND_MainNet_2_Upgrade_Proposal.md](https://ipfs.io/ipfs/QmZRGGNWCQGu6tVDYc713rqAKvTH7Qv3FQxneNQe77uKqB?filename=FUND_MainNet_2_Upgrade_Proposal.md)
 
-**MainNet Halt time:** 1654686000 (Wed Jun 08 2022 11:00:00 GMT+0000)
-**New MainNet Chain ID:** FUND-MainNet-2
+**MainNet Halt time:** 1654686000 (Wed Jun 08 2022 11:00:00 GMT+0000)  
+**New MainNet Chain ID:** FUND-MainNet-2  
 **New MainNet Genesis time:** 2022-06-08T14:00:00Z
 
 ## 1. Validator Nodes: Pre-upgrade preparation
