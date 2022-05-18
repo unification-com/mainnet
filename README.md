@@ -1,6 +1,6 @@
 # MainNet Genesis & Seed Nodes
 
-[![Join the chat at https://gitter.im/unification-com/mainnet](https://badges.gitter.im/unification-com/mainnet.svg)](https://gitter.im/unification-com/mainnet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://discord.com/channels/725618617525207042](https://img.shields.io/discord/725618617525207042?label=Discord)](https://discord.com/channels/725618617525207042)
 
 ## IMPORTANT: A major MainNet ugrade is planned for Wednesday 8th June 2022 at 11:00:00 GMT+0000
 ## See the [und v1.5.0 Upgrade Documentation](042_upgrade.md)
