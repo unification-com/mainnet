@@ -8,7 +8,8 @@ There are two main stages to the upgrade process:
    should halt. It should be executed **WELL BEFORE** the proposed halt time!
 2. **Upgrade Process (after halt time)** - the actual software upgrade and chain state migration process. The process
    is different depending on whether a Validator node is being upgraded, or a non-Validator node (for example a Sentry),
-   and is executed after the proposed halt time is reached, and the chain has halted. See the respective sections below.
+   and is executed **after** the proposed halt time is reached (and the chain has halted), but **before** the new
+   proposed genesis time. See the respective sections below.
 
 This guide assumes the `und` binary is running with `systemd` and that the user logging in via SSH is a `sudoer`. It
 also assumes that `UND_HOME` directory is the default `$HOME/.und_mainchain` directory path.
