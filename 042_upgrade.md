@@ -1,6 +1,6 @@
 # Network Upgrade & Migration: MainNet
 
-## Upgrading from und v1.4.8 (Cosmos SDK 0.38) to und v1.5.0 (Cosmos SDK 0.42)
+## Upgrading from und v1.4.8 (Cosmos SDK 0.38) to und v1.5.1 (Cosmos SDK 0.42)
 
 There are two main stages to the upgrade process:
 
@@ -156,30 +156,30 @@ cp /usr/local/bin/undcli $HOME/UND_BIN_BACKUP/undcli_1.4.8
 
 **IMPORTANT** `undcli` is no longer required since all the old `undcli` commands are not integrated into the 
 single `und` binary. As such, it should be removed if it installed in a common location because it will not be 
-compatible with `und` v1.5.0, for example:
+compatible with `und` v1.5.1, for example:
 
 ```bash
 sudo rm /usr/local/bin/undcli
 ```
 
-download `und` v1.5.0 and install in `/usr/local/bin` or your preferred location, for example:
+download `und` v1.5.1 and install in `/usr/local/bin` or your preferred location, for example:
 
 ```bash
 cd $HOME
-wget https://github.com/unification-com/mainchain/releases/download/1.5.0/und_v1.5.0_linux_x86_64.tar.gz
-tar -zxvf und_v1.5.0_linux_x86_64.tar.gz
+wget https://github.com/unification-com/mainchain/releases/download/1.5.1/und_v1.5.1_linux_x86_64.tar.gz
+tar -zxvf und_v1.5.1_linux_x86_64.tar.gz
 sudo mv und /usr/local/bin/und
 ```
 
-**IMPORTANT**: All commands from here require `und` v1.5.0
+**IMPORTANT**: All commands from here require `und` v1.5.1
 
-Ensure the installed `und` is v1.5.0
+Ensure the installed `und` is v1.5.1
 
 ```bash
 /usr/local/bin/und version --log_level=""
 ```
 
-Mirgate the exported genesis **using the `und` v1.5.0 binary**:
+Mirgate the exported genesis **using the `und` v1.5.1 binary**:
 
 ```bash
 /usr/local/bin/und migrate $HOME/v038_exported_state.json --chain-id=FUND-MainNet-2 --genesis-time="2022-06-08T14:00:00Z" --log_level="" > $HOME/new_v042_genesis.json
@@ -286,18 +286,18 @@ sudo rm /usr/local/bin/undcli
 
 There is no need to download `und` v1.4.9 - it will not be used for non-validator nodes.
 
-Download `und` v1.5.0 and install it in `/usr/local/bin` or your preferred location:
+Download `und` v1.5.1 and install it in `/usr/local/bin` or your preferred location:
 
 ```bash
 cd $HOME
-wget https://github.com/unification-com/mainchain/releases/download/1.5.0/und_v1.5.0_linux_x86_64.tar.gz
-tar -zxvf und_v1.5.0_linux_x86_64.tar.gz
+wget https://github.com/unification-com/mainchain/releases/download/1.5.1/und_v1.5.1_linux_x86_64.tar.gz
+tar -zxvf und_v1.5.1_linux_x86_64.tar.gz
 sudo mv und /usr/local/bin/und
 ```
 
-**IMPORTANT**: All commands from here require `und` v1.5.0
+**IMPORTANT**: All commands from here require `und` v1.5.1
 
-Ensure it's v1.5.0
+Ensure it's v1.5.1
 
 ```bash
 /usr/local/bin/und version --log_level=""
@@ -318,9 +318,9 @@ Download and configure the `app.toml` for Cosmos 0.42 chains.
 curl https://raw.githubusercontent.com/unification-com/mainnet/master/latest/042_app.toml > $HOME/.und_mainchain/config/app.toml
 ```
 
-It is recommended to set some values for the `[state-sync]` section at the end of `app.toml`, which will benefit the 
+**It is recommended to set some values for the `[state-sync]` section at the end of `app.toml`, which will benefit the 
 network by speeding up state syncing for new nodes joining the network. Assuming `pruning = "default"`, some 
-suggested values are:
+suggested values are:**
 
 ```toml
 snapshot-interval = 500
