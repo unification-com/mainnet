@@ -5,7 +5,7 @@
 There are two main stages to the upgrade process:
 
 1. **Pre-upgrade preparation** - this should be carried out by Validator nodes only, and specifies when the chain
-   should halt. It should be executed **WELL BEFORE** the proposed halt time!
+   should halt. It should be executed **BEFORE** the proposed halt time!
 2. **Upgrade Process (after halt time)** - the actual software upgrade and chain state migration process. The process
    is different depending on whether a Validator node is being upgraded, or a non-Validator node (for example a Sentry),
    and is executed **after** the proposed halt time is reached (and the chain has halted), but **before** the new
