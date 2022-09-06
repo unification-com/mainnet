@@ -1,0 +1,141 @@
+{
+  "current_chain_id": "FUND-MainNet-2",
+  "upgrades": [
+    {
+      "und": "v1.4.8 ",
+      "chain_id": "FUND-Mainchain-MainNet-v1",
+      "from": "genesis",
+      "to": "11039060",
+      "state_export": "N/A"
+    },
+    {
+      "und": "v1.5.1 ",
+      "chain_id": "FUND-MainNet-2",
+      "from": "genesis",
+      "to": "current",
+      "state_export": "YES"
+    }
+  ],
+  "services": {
+    "seed": {
+      "foundation": [
+        {
+          "name": "seed1",
+          "url": "0c2b65bc604a18a490f5f55bb7b4140cfb512ced@seed1.unification.io:26656",
+          "link": false
+        },
+        {
+          "name": "seed2",
+          "url": "e66e0f89af19da09f676c85b262d591b8c2bb9d8@seed2.unification.io:26656",
+          "link": false
+        }
+      ],
+      "community": [],
+      "legacy": []
+    },
+    "rpc": {
+      "foundation": [
+        {
+          "name": "rpc1 (http)",
+          "url": "https://rpc1.unification.io",
+          "link": true
+        },
+        {
+          "name": "rpc1 (tcp)",
+          "url": "tcp://rpc1.unification.io:443",
+          "link": false
+        }
+      ],
+      "community": [
+        {
+          "name": "Chainmasters RPC (http)",
+          "url": "https://rpc.unification.chainmasters.ninja",
+          "link": true
+        },
+        {
+          "name": "Chainmasters RPC (tcp)",
+          "url": "tcp://rpc.unification.chainmasters.ninja:443",
+          "link": false
+        }
+      ],
+      "legacy": []
+    },
+    "rest": {
+      "foundation": [
+        {
+          "name": "rest",
+          "url": "https://rest.unification.io",
+          "link": true
+        },
+        {
+          "name": "rest (swagger)",
+          "url": "https://rest.unification.io/swagger/",
+          "link": true
+        }
+      ],
+      "community": [
+        {
+          "name": "Chainmasters REST",
+          "url": "https://rest.unification.chainmasters.ninja",
+          "link": true
+        },
+        {
+          "name": "Chainmasters REST (swagger)",
+          "url": "https://rest.unification.chainmasters.ninja/swagger/",
+          "link": true
+        }
+      ],
+      "legacy": [
+        {
+          "name": "legacy rest (FUND-Mainchain-MainNet-v1)",
+          "url": "https://legacy-fund-mainnet-v1-rest.unification.io",
+          "link": true
+        },
+        {
+          "name": "legacy rest (swagger) (FUND-Mainchain-MainNet-v1)",
+          "url": "https://legacy-fund-mainnet-v1-rest.unification.io/swagger-ui/",
+          "link": true
+        }
+      ]
+    },
+    "state_sync": {
+      "foundation": [
+        {
+          "name": "statesync1",
+          "url": "sync1.unification.io:26657",
+          "link": false
+        },
+        {
+          "name": "statesync2",
+          "url": "sync2.unification.io:26657",
+          "link": false
+        }
+      ],
+      "community": [],
+      "legacy": []
+    },
+    "explorer": {
+      "foundation": [
+        {
+          "name": "explorer",
+          "url": "https://explorer.unification.io",
+          "link": true
+        }
+      ],
+      "community": [
+        {
+          "name": "Chainmasters Explorer",
+          "url": "https://explorer.unification.chainmasters.ninja/unification",
+          "link": true
+        }
+      ],
+      "legacy": [
+        {
+          "name": "Legacy Explorer",
+          "url": "https://legacy-fund-mainnet-v1-explorer.unification.io",
+          "link": true
+        }
+      ]
+    }
+  }
+}
