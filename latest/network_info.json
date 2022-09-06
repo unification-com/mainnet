@@ -136,6 +136,10 @@
           "link": true
         }
       ]
+    },
+    "ibc_relayers": {
+      "foundation": [],
+      "community": []
     }
   }
 }
