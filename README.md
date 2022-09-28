@@ -14,7 +14,7 @@ See the [cosmovisor guide](cosmovisor.md) for a quickstart covering running `und
 
 ## Upgrade to und v1.6.x: 1-init_ibc Block 2002620
 
-See [TestNet Network Upgrade: 1-init_ibc](1-init_ibc_upgrade.md) for a guide on preparing for the `1-init_ibc` upgrade
+See [MainNet Network Upgrade: 1-init_ibc](1-init_ibc_upgrade.md) for a guide on preparing for the `1-init_ibc` upgrade
 
 ## Seed Nodes
 
