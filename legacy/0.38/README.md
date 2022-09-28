@@ -6,4 +6,4 @@ This directory contains everything relating to the legacy MainNet running Cosmos
 
 ### Cosmos SDK 0.38 branch
 
-- [FUND-Mainchain-MainNet](0.38/history/FUND-Mainchain-MainNet) - initial v1 MainNet, 2020-05-14 09:33:07
+- [FUND-Mainchain-MainNet](history/FUND-Mainchain-MainNet) - initial v1 MainNet, 2020-05-14 09:33:07
