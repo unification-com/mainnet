@@ -31,8 +31,8 @@ mkdir -p $HOME/.und_mainchain/cosmovisor/upgrades/1-init_ibc/bin
 
 ```bash
 mkdir -p $HOME/tmp/1-init_ibc && cd $HOME/tmp/1-init_ibc
-wget https://github.com/unification-com/mainchain/releases/download/v1.6.2/und_v1.6.2_linux_x86_64.tar.gz
-tar -zxvf und_v1.6.2_linux_x86_64.tar.gz
+wget https://github.com/unification-com/mainchain/releases/download/v1.6.3/und_v1.6.3_linux_x86_64.tar.gz
+tar -zxvf und_v1.6.3_linux_x86_64.tar.gz
 mv und $HOME/.und_mainchain/cosmovisor/upgrades/1-init_ibc/bin/
 ```
 
@@ -51,7 +51,7 @@ The directory structure for `$HOME/.und_mainchain/cosmovisor` should now look as
             └── und
 ```
 
-3. Check the version is 1.6.2
+3. Check the version is 1.6.3
 
 ```bash
 $HOME/.und_mainchain/cosmovisor/upgrades/1-init_ibc/bin/und version --log_level ""
