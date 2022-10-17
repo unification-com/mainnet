@@ -55,7 +55,7 @@ Add:
 
 ```bash
 DAEMON_NAME=und
-DAEMON_HOME=$HOME/.und_mainchain
+DAEMON_HOME=/FULL/PATH/TO/.und_mainchain
 DAEMON_RESTART_AFTER_UPGRADE=true
 ```
 

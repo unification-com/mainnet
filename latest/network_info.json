@@ -13,9 +13,17 @@
       "und": "v1.5.1",
       "chain_id": "FUND-MainNet-2",
       "from": "genesis",
-      "to": "current",
+      "to": "2002619",
       "state_export": "YES",
       "upgrade_plan": ""
+    },
+    {
+      "und": "v1.6.3",
+      "chain_id": "FUND-MainNet-2",
+      "from": "2002620",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "1-init_ibc"
     }
   ],
   "services": {
