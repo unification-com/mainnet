@@ -46,13 +46,23 @@
     "rpc": {
       "foundation": [
         {
-          "name": "rpc1 (http)",
+          "name": "rpc1 (https)",
           "url": "https://rpc1.unification.io",
           "link": true
         },
         {
           "name": "rpc1 (tcp)",
           "url": "tcp://rpc1.unification.io:443",
+          "link": false
+        },
+        {
+          "name": "rpc1 (websockets)",
+          "url": "wss://rpc1.unification.io/websocket",
+          "link": false
+        },
+        {
+          "name": "gRPC",
+          "url": "https://grpc.unification.io",
           "link": false
         }
       ],
@@ -68,7 +78,13 @@
           "link": false
         }
       ],
-      "legacy": []
+      "legacy": [
+        {
+          "name": "legacy RPC (FUND-Mainchain-MainNet-v1)",
+          "url": "https://legacy-fund-mainnet-v1-rpc.unification.io",
+          "link": true
+        }
+      ]
     },
     "rest": {
       "foundation": [
