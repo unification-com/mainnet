@@ -37,9 +37,17 @@
       "und": "v1.8.2",
       "chain_id": "FUND-MainNet-2",
       "from": "6943000",
-      "to": "current",
+      "to": "9577299",
       "state_export": "NO",
       "upgrade_plan": "3-keyleth"
+    },
+    {
+      "und": "v1.9.0",
+      "chain_id": "FUND-MainNet-2",
+      "from": "9577300",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "4-percival"
     }
   ],
   "services": {
