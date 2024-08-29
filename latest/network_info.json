@@ -45,9 +45,17 @@
       "und": "v1.9.0",
       "chain_id": "FUND-MainNet-2",
       "from": "9577300",
-      "to": "current",
+      "to": "12209999",
       "state_export": "NO",
       "upgrade_plan": "4-percival"
+    },
+    {
+      "und": "v1.10.1",
+      "chain_id": "FUND-MainNet-2",
+      "from": "12210000",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "5-pike"
     }
   ],
   "services": {
