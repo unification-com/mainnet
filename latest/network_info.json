@@ -62,12 +62,12 @@
     "seed": {
       "foundation": [
         {
-          "name": "seed1",
+          "name": "Seed 1",
           "url": "0c2b65bc604a18a490f5f55bb7b4140cfb512ced@seed1.unification.io:26656",
           "link": false
         },
         {
-          "name": "seed2",
+          "name": "Seed 2",
           "url": "e66e0f89af19da09f676c85b262d591b8c2bb9d8@seed2.unification.io:26656",
           "link": false
         }
@@ -78,18 +78,18 @@
     "rpc": {
       "foundation": [
         {
-          "name": "rpc1 (https)",
-          "url": "https://rpc1.unification.io",
+          "name": "RPC (HTTPS)",
+          "url": "https://rpc.unification.io",
           "link": true
         },
         {
-          "name": "rpc1 (tcp)",
-          "url": "tcp://rpc1.unification.io:443",
+          "name": "RPC (TCP)",
+          "url": "tcp://rpc.unification.io:443",
           "link": false
         },
         {
-          "name": "rpc1 (websockets)",
-          "url": "wss://rpc1.unification.io/websocket",
+          "name": "RPC Websocket",
+          "url": "wss://wss.unification.io",
           "link": false
         },
         {
@@ -121,12 +121,12 @@
     "rest": {
       "foundation": [
         {
-          "name": "rest",
+          "name": "REST",
           "url": "https://rest.unification.io",
           "link": true
         },
         {
-          "name": "rest (swagger)",
+          "name": "Swagger API",
           "url": "https://rest.unification.io/swagger/",
           "link": true
         }
@@ -145,12 +145,12 @@
       ],
       "legacy": [
         {
-          "name": "legacy rest (FUND-Mainchain-MainNet-v1)",
+          "name": "Legacy REST (FUND-Mainchain-MainNet-v1)",
           "url": "https://legacy-fund-mainnet-v1-rest.unification.io",
           "link": true
         },
         {
-          "name": "legacy rest (swagger) (FUND-Mainchain-MainNet-v1)",
+          "name": "Legacy REST (swagger) (FUND-Mainchain-MainNet-v1)",
           "url": "https://legacy-fund-mainnet-v1-rest.unification.io/swagger-ui/",
           "link": true
         }
@@ -159,12 +159,12 @@
     "state_sync": {
       "foundation": [
         {
-          "name": "statesync1",
+          "name": "State Sync 1",
           "url": "sync1.unification.io:26657",
           "link": false
         },
         {
-          "name": "statesync2",
+          "name": "State Sync 2",
           "url": "sync2.unification.io:26657",
           "link": false
         }
