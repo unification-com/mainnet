@@ -53,9 +53,17 @@
       "und": "v1.10.1",
       "chain_id": "FUND-MainNet-2",
       "from": "12210000",
-      "to": "current",
+      "to": "16474999",
       "state_export": "NO",
       "upgrade_plan": "5-pike"
+    },
+    {
+      "und": "v1.11.0",
+      "chain_id": "FUND-MainNet-2",
+      "from": "16475000",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "6-scanlan"
     }
   ],
   "services": {
@@ -157,18 +165,7 @@
       ]
     },
     "state_sync": {
-      "foundation": [
-        {
-          "name": "State Sync 1",
-          "url": "sync1.unification.io:26657",
-          "link": false
-        },
-        {
-          "name": "State Sync 2",
-          "url": "sync2.unification.io:26657",
-          "link": false
-        }
-      ],
+      "foundation": [],
       "community": [],
       "legacy": []
     },
