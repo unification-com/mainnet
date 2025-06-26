@@ -2,14 +2,6 @@
   "current_chain_id": "FUND-MainNet-2",
   "upgrades": [
     {
-      "und": "v1.4.8",
-      "chain_id": "FUND-Mainchain-MainNet-v1",
-      "from": "genesis",
-      "to": "11039060",
-      "state_export": "N/A",
-      "upgrade_plan": ""
-    },
-    {
       "und": "v1.5.1",
       "chain_id": "FUND-MainNet-2",
       "from": "genesis",
@@ -118,13 +110,7 @@
           "link": false
         }
       ],
-      "legacy": [
-        {
-          "name": "legacy RPC (FUND-Mainchain-MainNet-v1)",
-          "url": "https://legacy-fund-mainnet-v1-rpc.unification.io",
-          "link": true
-        }
-      ]
+      "legacy": []
     },
     "rest": {
       "foundation": [
@@ -151,18 +137,7 @@
           "link": true
         }
       ],
-      "legacy": [
-        {
-          "name": "Legacy REST (FUND-Mainchain-MainNet-v1)",
-          "url": "https://legacy-fund-mainnet-v1-rest.unification.io",
-          "link": true
-        },
-        {
-          "name": "Legacy REST (swagger) (FUND-Mainchain-MainNet-v1)",
-          "url": "https://legacy-fund-mainnet-v1-rest.unification.io/swagger-ui/",
-          "link": true
-        }
-      ]
+      "legacy": []
     },
     "state_sync": {
       "foundation": [],
@@ -184,13 +159,7 @@
           "link": true
         }
       ],
-      "legacy": [
-        {
-          "name": "Legacy Explorer",
-          "url": "https://legacy-fund-mainnet-v1-explorer.unification.io",
-          "link": true
-        }
-      ]
+      "legacy": []
     },
     "ibc_relayers": {
       "foundation": [
