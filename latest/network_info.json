@@ -2,14 +2,6 @@
   "current_chain_id": "FUND-MainNet-2",
   "upgrades": [
     {
-      "und": "v1.4.8",
-      "chain_id": "FUND-Mainchain-MainNet-v1",
-      "from": "genesis",
-      "to": "11039060",
-      "state_export": "N/A",
-      "upgrade_plan": ""
-    },
-    {
       "und": "v1.5.1",
       "chain_id": "FUND-MainNet-2",
       "from": "genesis",
