@@ -53,9 +53,17 @@
       "und": "v1.11.0",
       "chain_id": "FUND-MainNet-2",
       "from": "16475000",
-      "to": "current",
+      "to": "18055499",
       "state_export": "NO",
       "upgrade_plan": "6-scanlan"
+    },
+    {
+      "und": "v1.12.0",
+      "chain_id": "FUND-MainNet-2",
+      "from": "18055500",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "7-taryon"
     }
   ],
   "services": {
@@ -85,6 +93,16 @@
         {
           "name": "RPC (TCP)",
           "url": "tcp://rpc.unification.io:443",
+          "link": false
+        },
+        {
+          "name": "RPC (HTTPS)",
+          "url": "https://rpc1.unification.io",
+          "link": true
+        },
+        {
+          "name": "RPC (TCP)",
+          "url": "tcp://rpc1.unification.io:443",
           "link": false
         },
         {
