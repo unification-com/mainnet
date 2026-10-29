@@ -61,9 +61,17 @@
       "und": "v1.12.0",
       "chain_id": "FUND-MainNet-2",
       "from": "18055500",
-      "to": "current",
+      "to": "24171999",
       "state_export": "NO",
       "upgrade_plan": "7-taryon"
+    },
+    {
+      "und": "v1.13.4",
+      "chain_id": "FUND-MainNet-2",
+      "from": "24172000",
+      "to": "current",
+      "state_export": "NO",
+      "upgrade_plan": "8-vaxildan"
     }
   ],
   "services": {
